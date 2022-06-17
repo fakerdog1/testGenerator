@@ -1,0 +1,12 @@
+{
+    "INTERFACE_API_LOCATION": "http://localhost:4480/api/main",
+    "AUTH_API_ADDRESS": "http://localhost:4480/api/jwt",
+    "PERMISSIONS_API_ADDRESS": "http://localhost:4480/api/permissions",
+    "VALID_FILE_TYPES": [
+        "jpg",
+        "jpeg",
+        "png"
+    ],
+    "JWT_COOKIE_NAME": "jwt_token",
+    "JWT_TOKEN_DAYS_TTL": "7"
+}

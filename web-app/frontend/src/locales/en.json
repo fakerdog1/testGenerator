@@ -1,0 +1,127 @@
+{
+    "Login_Page": {
+        "title": "Login Page",
+        "actions": {
+            "login": "Login",
+            "register": "Register"
+        }
+    },
+    "Home_Page": {
+        "title": "Homepage"
+    },
+    "Test_Page": {
+        "title": "Test Page"
+    },
+    "History_Page": {
+        "title": "History Page"
+    },
+    "Search_Page": {
+        "title": "Search Page"
+    },
+    "ImageManagement_Page": {
+        "title": "Image Management"
+    },
+    "User_Page": {
+        "title": "User Page"
+    },
+    "Permissions_Page": {
+        "title": "Permissions Page"
+    },
+    "LoginForm_Component": {
+        "labels": {
+            "username": "Username:",
+            "password": "Password:",
+            "submit": "Log in"
+        },
+        "errors": {
+            "empty_username": "Username cannot be empty",
+            "empty_password": "Password cannot be empty",
+            "short_password": "Password is too short, should be atleast 8 characters",
+            "network_error": "There was an error communicating with the authentication service",
+            "wrong_credentials": "The username and/or password you entered were incorrect"
+        }
+    },
+    "RegisterForm_Component": {
+        "labels": {
+            "username": "Username:",
+            "password": "Password:",
+            "repeat_password": "Repeat Password:",
+            "email": "Email:",
+            "repeat_email": "Repeat Email:",
+            "submit": "Register"
+        },
+        "errors": {
+            "empty_username": "Username cannot be empty",
+            "empty_password": "Password cannot be empty",
+            "empty_email": "Email cannot be empty",
+            "short_password": "Password is too short, should be at least 8 characters",
+            "password_mismatch": "Passwords do not match",
+            "invalid_email": "Email is not valid",
+            "email_mismatch": "Emails do not match",
+            "email_in_use": "Email is already in use",
+            "username_in_use": "Username is already in use",
+            "network_error": "There was an error communicating with the authentication service"
+        }
+    },
+    "RegisterTeacherForm_Component": {
+        "labels": {
+            "residence_address": "Address:",
+            "education": "Education:",
+            "education_proof": "Proof of Education:",
+            "profile_pic": "Profile Picture:",
+            "id_card": "ID Card:",
+            "submit": "Register as a Teacher"
+        },
+        "errors": {
+            "empty_residenceAddress": "Address cannot be empty",
+            "empty_education": "Education cannot be empty",
+            "empty_educationProof": "You need to submit proof of your education",
+            "empty_profilePic": "You need to submit a profile picture",
+            "empty_idCard": "You need to submit a copy of your ID card"
+        }
+    },
+    "RegisterStudentForm_Component": {
+        "labels": {
+            "school": "School (Optional):",
+            "bigStudentEmail": "Parent/guardian's email:",
+            "submit": "Register as a Student"
+        },
+        "errors": {
+            "invalid_email": "Invalid email",
+            "empty_bigStudentEmail": "Parent'guardian's email cannot be empty"
+        }
+    },
+    "RegisterBigStudentForm_Component": {
+        "labels": {
+            "card_num": "Card Number (optional):",
+            "submit": "Register as a Parent"
+        },
+        "errors": {
+            "invalid_card_numl": "Invalid card number"
+        }
+    },
+    "ImaegList_Component": {
+        "label": "Image List",
+        "table_labels": {
+            "id": "Image ID",
+            "belongs_to": "Owner ID",
+            "size": "Size (KB)",
+            "access_list": "Access List (IDs)",
+            "selected": "selected"
+        }
+    },
+    "ImageControls": {
+        "UploadImage_Component": {
+            "label": "Image Upload Form",
+            "form_labels": {
+                "private": "Private",
+                "public": "Public",
+                "submit": "Submit"
+            },
+            "errors": {
+                "invalid_fType": "Invalid file type selected",
+                "invalid_jwt": "There was a problem verifying your session; Please login again."
+            }
+        }
+    }
+}
